@@ -1,0 +1,29 @@
+Program parsed successfully.
+start
+Generated Intermediate Code:
+sum = 0;
+flag = 1;
+i = 1;
+t0 = 5;
+L0:
+if i > t0 goto L1;
+t1 = i + 1;
+j = t1;
+t2 = i * j;
+t3 = sum + t2;
+sum = t3;
+t4 = i < 3;
+if t4 == 0 goto L3;
+t5 = sum + 10;
+sum = t5;
+L3:
+t6 = i < j;
+t7 = t6 && flag;
+flag = t7;
+L2:
+i = i + 1;
+goto L0;
+L1:
+t8 = sum + 2.5;
+x = t8;
+end
